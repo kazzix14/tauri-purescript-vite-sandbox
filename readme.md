@@ -1,1 +1,1 @@
-Vite + PureScript + Tauri
+Tauri + PureScript + Halogen + Vite
