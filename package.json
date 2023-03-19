@@ -1,0 +1,29 @@
+{
+  "name": "vite-app",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "tauri": "tauri",
+    "build": "spago build && vite build",
+    "dev": "nf start",
+    "dev:vite": "vite",
+    "dev:spago": "spago bundle-app -y -t output/index.js -w",
+    "preview": "vite preview",
+    "format": "purty --write src"
+  },
+  "devDependencies": {
+    "@originjs/vite-plugin-commonjs": "^1.0.3",
+    "@rollup/plugin-commonjs": "^24.0.1",
+    "@rollup/plugin-node-resolve": "^15.0.1",
+    "@tauri-apps/cli": "^1.2.3",
+    "@types/node": "^18.15.3",
+    "foreman": "^3.0.1",
+    "purescript": "^0.15.8",
+    "purs-tidy": "^0.9.3",
+    "purty": "^7.0.0",
+    "spago": "^0.20.9",
+    "vite": "^4.2.0",
+    "vite-plugin-ejs": "^1.6.4"
+  }
+}
